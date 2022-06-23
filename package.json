@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "vite",
-    "start:neu": "neu run",
+    "start:neu": "neu run --frontend-lib-dev",
     "build": "rm -rf dist && vite build",
     "preview": "vite preview"
   },
