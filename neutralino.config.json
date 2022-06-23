@@ -1,5 +1,5 @@
 {
-  "applicationId": "js.neutralino.zero",
+  "applicationId": "com.jagrider.vite-react-neutralino",
   "version": "1.0.0",
   "defaultMode": "window",
   "documentRoot": "/dist/",
@@ -11,7 +11,7 @@
   ],
   "modes": {
     "window": {
-      "title": "neuvite-react",
+      "title": "vite-react-neutralino",
       "width": 800,
       "height": 500,
       "minWidth": 400,
@@ -20,7 +20,7 @@
     }
   },
   "cli": {
-    "binaryName": "neuvite-react",
+    "binaryName": "vite-react-neutralino",
     "resourcesPath": "/dist/",
     "extensionsPath": "/extensions/",
     "clientLibrary": "/public/neutralino.js",

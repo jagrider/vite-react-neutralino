@@ -1,7 +1,8 @@
 {
-  "name": "react",
+  "author": "Jonathan Grider <jgrider2015@gmail.com>",
+  "name": "vite-react-neutralino",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "vite",
     "start:neu": "neu run",
