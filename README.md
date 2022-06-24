@@ -1,4 +1,4 @@
-# neutralinojs-zero
+# vite-react-neutralino
 A (slightly) opinionated Vite template project using React + NeutralinoJS. Inspired by [vitesse-neutralino](https://github.com/jaronwanderley/vitesse-neutralino).
 
 
