@@ -88,7 +88,7 @@ npm build
 ## Making This Template Your Own
 - [ ] Change the author name in `LICENSE`
 - [ ] Change the title in `App.jsx`
-- [ ] Change the manifest.name and manifest.short_name in `vite.config.ts`
+- [ ] Change the manifest.name and manifest.short_name in `vite.config.js`
 - [ ] Change the favicon.svg in `public`
 - [ ] Change applicationId in `neutralino.config.json`
 - [ ] Change modes.window.title in `neutralino.config.json`
