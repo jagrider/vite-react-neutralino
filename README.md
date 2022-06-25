@@ -7,13 +7,12 @@ A (slightly) opinionated Vite template project using React + NeutralinoJS. Inspi
 
 - 🔍 [ESLint](https://eslint.org) + [Prettier](https://prettier.io)
 
-- 🗂 [File based routing](https://github.com/hannoeru/vite-plugin-pages)
+- 🗂 File based routing via [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) and React Router
 
 - 💻 [Desktop Application](https://github.com/neutralinojs/neutralinojs)
 
 - 🎨 [TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
 
-<br>
 
 #### Potential Addons (not included):
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
@@ -22,8 +21,6 @@ A (slightly) opinionated Vite template project using React + NeutralinoJS. Inspi
     - [TailwindCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 
-
-<br>
 
 ## Usage & Development
 
@@ -45,7 +42,6 @@ npm i
 # Grab NeutralinoJS libraries
 neu update # If you don't have Neutralino CLI installed, run: npm i -g @neutralinojs/neu
 ```
-<br>
 
 ## Running the App
 
@@ -58,8 +54,6 @@ npm run build
 ### Running with Vite
 To start the local Vite server, just use `npm start`. This will be accessible in the browser at [localhost:3000](http://localhost:3000). 
 
-<br>
-
 ### Running with Vite + NeutralinoJS
 If you want to develop/test using the NeutralinoJS wrapper:
 ```bash
@@ -71,7 +65,6 @@ npm run start:neu
 ```
 The `start:neu` command starts our configuration of neu and tells it to use the frontend framework's HMR system within the Neutralino container. If you try to run `start:neu` before the web server is running, the window/HMR may not function correctly.
 
-<br>
 
 ## Build
 ### NeutralinoJS
@@ -79,8 +72,6 @@ To build the Desktop Application
 ```bash
 npm build
 ```
-
-<br>
 
 ## Making This Template Your Own
 - [ ] Change the author name in `LICENSE`
@@ -91,8 +82,6 @@ npm build
 - [ ] Change modes.window.title in `neutralino.config.json`
 - [ ] Change cli.binaryName in `neutralino.config.json`
 - [ ] Clean up the READMEs and remove routes
-
-<br>
 
 ## Why?
 Inspired by [vitesse-neutralino](https://github.com/jaronwanderley/vitesse-neutralino), I created this template because I wanted a Vite + React + NeutralinoJS template with some basic configuration.

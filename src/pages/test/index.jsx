@@ -1,20 +1,22 @@
 import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { Link } from 'react-router-dom'
+import logo from '../../assets/logo.svg'
+import '../../styles/home.css'
 
-function App() {
+const Testy = () => {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header space-y-3">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React + Tailwind!</p>
-        <p>
+        <p>Hello Vite + React!</p>
+        <p className='bg-green-300 text-black py-1 px-4 rounded-lg'>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
         </p>
+        <Link className='bg-cyan-100 text-black py-1 px-4 rounded-lg' to="/">Go Home</Link>
         <p>
           Edit <code>App.jsx</code> and save to test HMR updates.
         </p>
@@ -42,4 +44,4 @@ function App() {
   )
 }
 
-export default App
+export default Testy
