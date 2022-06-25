@@ -17,9 +17,11 @@ const Routes = () => {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Router>
-    <Routes />
-  </Router>
+  <React.StrictMode>
+    <Router>
+      <Routes />
+    </Router>
+  </React.StrictMode>
 )
 
 if (typeof window !== 'undefined') {
