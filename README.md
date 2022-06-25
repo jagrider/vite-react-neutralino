@@ -11,9 +11,7 @@ A (slightly) opinionated Vite template project using React + NeutralinoJS. Inspi
 
 - 💻 [Desktop Application](https://github.com/neutralinojs/neutralinojs)
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
-
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- 🎨 [TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
 
 <br>
 
@@ -21,8 +19,7 @@ A (slightly) opinionated Vite template project using React + NeutralinoJS. Inspi
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 - [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
 -  VS Code Extensions
-    - [UnoCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.unocss)
-    - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
+    - [TailwindCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 
 

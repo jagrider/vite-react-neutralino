@@ -7,8 +7,5 @@
 [ ] Add `vite-plugin-pages`
   - router research
 
-[ ] Add UnoCSS
+[x] Add TailwindCSS
   - npm package + plugins
-  - unocss config
-  - Vite plugin
-  - icon plugins
