@@ -4,11 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": [
-    "eslint:all",
-    "plugin:react/all",
-    "prettier"
-  ],
+  "extends": ["eslint:all", "plugin:react/all", "prettier"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -16,20 +12,14 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "react-hooks"
-  ],
+  "plugins": ["react", "react-hooks"],
   "rules": {
     "capitalized-comments": "off",
     "class-methods-use-this": "off",
     "id-length": "off",
     "init-declarations": "off",
     "line-comment-position": "off",
-    "max-statements": [
-      "error",
-      20
-    ],
+    "max-statements": ["error", 20],
     "multiline-comment-style": "off",
     "no-await-in-loop": "off",
     "no-console": "off",
@@ -42,33 +32,18 @@
     "no-undefined": "off",
     "no-unused-expressions": "off",
     "no-warning-comments": "off",
-    "one-var": [
-      "error",
-      "never"
-    ],
+    "one-var": ["error", "never"],
     "padding-line-between-statements": [
       "error",
       {
         "blankLine": "always",
         "next": "*",
-        "pref": [
-          "const",
-          "let",
-          "var"
-        ]
+        "pref": ["const", "let", "var"]
       },
       {
         "blankLine": "any",
-        "next": [
-          "const",
-          "let",
-          "var"
-        ],
-        "pref": [
-          "const",
-          "let",
-          "var"
-        ]
+        "next": ["const", "let", "var"],
+        "pref": ["const", "let", "var"]
       }
     ],
     "prefer-named-capture-group": "off",
