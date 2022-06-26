@@ -1,0 +1,95 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:all",
+    "plugin:react/all",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "rules": {
+    "capitalized-comments": "off",
+    "class-methods-use-this": "off",
+    "id-length": "off",
+    "init-declarations": "off",
+    "line-comment-position": "off",
+    "max-statements": [
+      "error",
+      20
+    ],
+    "multiline-comment-style": "off",
+    "no-await-in-loop": "off",
+    "no-console": "off",
+    "no-inline-comments": "off",
+    "no-invalid-this": "off",
+    "no-magic-numbers": "off",
+    "no-process-env": "off",
+    "no-prototype-builtins": "off",
+    "no-ternary": "off",
+    "no-undefined": "off",
+    "no-unused-expressions": "off",
+    "no-warning-comments": "off",
+    "one-var": [
+      "error",
+      "never"
+    ],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "next": "*",
+        "pref": [
+          "const",
+          "let",
+          "var"
+        ]
+      },
+      {
+        "blankLine": "any",
+        "next": [
+          "const",
+          "let",
+          "var"
+        ],
+        "pref": [
+          "const",
+          "let",
+          "var"
+        ]
+      }
+    ],
+    "prefer-named-capture-group": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/forbid-component-props": "off",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "react/jsx-max-depth": [
+      "warn",
+      {
+        "max": 6
+      }
+    ],
+    "react/jsx-no-literals": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-sort-props": "off"
+  }
+}
