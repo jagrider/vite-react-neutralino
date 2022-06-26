@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
 import '../styles/home.css';
 
-const Home = () => {
+const HomePage = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -36,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
