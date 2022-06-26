@@ -4,12 +4,13 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "lint": "eslint",
-    "start": "vite",
-    "start:neu": "neu run --frontend-lib-dev",
     "build": "rm -rf dist && vite build",
-    "build:neu": "build && neu build",
-    "preview": "vite preview"
+    "build:neu": "npm run build && neu build",
+    "clean": "rm -rf dist",
+    "lint": "eslint",
+    "preview": "vite preview",
+    "start": "vite",
+    "start:neu": "neu run --frontend-lib-dev"
   },
   "dependencies": {
     "react": "^18.0.0",
