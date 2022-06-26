@@ -70,7 +70,7 @@ The `start:neu` command starts our configuration of neu and tells it to use the 
 ### NeutralinoJS
 To build the Desktop Application
 ```bash
-npm build
+npm run build
 ```
 
 ## Making This Template Your Own

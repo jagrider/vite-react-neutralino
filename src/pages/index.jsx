@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/logo.svg'
 import '../styles/home.css'
@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <div className="App">
       <header className="App-header space-y-3">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img alt="logo" className="App-logo" src={logo} />
         <p>Hello Vite + React!</p>
         <p className='bg-green-300 text-black py-1 px-4 rounded-lg'>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <button onClick={() => setCount((count) => count + 1)} type="button">
             count is: {count}
           </button>
         </p>
@@ -24,8 +24,8 @@ const Home = () => {
           <a
             className="App-link"
             href="https://reactjs.org"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             Learn React
           </a>
@@ -33,8 +33,8 @@ const Home = () => {
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             Vite Docs
           </a>
